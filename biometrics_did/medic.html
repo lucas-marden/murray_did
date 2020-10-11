@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #aaa;
+  background-color: #aaa;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Medic View</h2>
+<a href="http://127.0.0.1:8000/biometrics_did/team_lead">Click here for Team Lead View</a>
+<div class="row">
+  <div class="column"> 
+    <h2>CDT Marden</h2>
+    <p>Blood Pressure: 115/68</p>
+    <p>Fluid Intake: 6.2L</p>
+    <p>Sleep Score: 80</p>
+  </div>
+  <div class="column">
+    <h2>CDT Cogbill</h2>
+    <p>Blood Pressure: 130/78</p>
+    <p>Fluid Intake: 4.5L</p>
+    <p>Sleep Score: 65</p>
+  </div>
+  <div class="column"> 
+    <h2>CDT Murray</h2>
+    <p>Blood Pressure: 125/73</p>
+    <p>Fluid Intake: 2.0L</p>
+    <p>Sleep Score: 30</p>
+  </div>
+  <div class="column">
+    <h2>CDT Motes</h2>
+    <p>Blood Pressure: 110/65</p>
+    <p>Fluid Intake: 5.1L</p>
+    <p>Sleep Score: 85</p>
+  </div>
+</div>
+
+</body>
+</html>
+

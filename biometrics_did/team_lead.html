@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #aaa;
+  background-color: #aaa;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Draw color gradient box for risk score */
+.gradient {
+  width: 30%;
+  margin: auto;
+  background: linear-gradient(to bottom, #ff0000, #ff8000, #ffff00, #80ff00, #00ff00, #00ff80, #00ffff, #0080ff, #0000ff, #ff00ff, #ff0080);
+  border: 1px solid #000000;
+}
+</style>
+</head>
+<body>
+
+<h2>Team Lead View</h2>
+<a href="http://127.0.0.1:8000/biometrics_did/medic">Click here for Medic View</a>
+<div class="row">
+  <div class="column"> 
+    <h2>CDT Marden</h2>
+    <p>0</p>
+    <div class="gradient"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+  </div>
+  <div class="column">
+    <h2>CDT Cogbill</h2>
+    <p>25</p>
+    <div class="gradient"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+  </div>
+  <div class="column"> 
+    <h2>CDT Murray</h2>
+    <p>100</p>
+    <div class="gradient"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+  </div>
+  <div class="column">
+    <h2>CDT Motes</h2>
+    <p>39</p>
+    <div class="gradient"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+  </div>
+</div>
+
+</body>
+</html>
+
