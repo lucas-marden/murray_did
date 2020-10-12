@@ -39,24 +39,25 @@
 <a href="http://127.0.0.1:8000/biometrics_did/medic">Click here for Medic View</a>
 <div class="row">
   <div class="column"> 
-    <h2>CDT Marden</h2>
-    <p>0</p>
-    <div class="gradient"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+    <h2>{{ soldier1_name }}</h2>
+    <p>{{ soldier1_score }}</p>
+    {% load static %}
+    <img src="{% static "soldier1_risk_score.jpg" %}" alt="My image" height="300" width="250">
   </div>
   <div class="column">
-    <h2>CDT Cogbill</h2>
-    <p>25</p>
-    <div class="gradient"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+    <h2>{{ soldier2_name }}</h2>
+    <p>{{ soldier2_score }}</p>
+    <img src="{% static "soldier2_risk_score.jpg" %}" alt="My image" height="300" width="250">
   </div>
   <div class="column"> 
-    <h2>CDT Murray</h2>
-    <p>100</p>
-    <div class="gradient"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+    <h2>{{ soldier3_name }}</h2>
+    <p>{{ soldier3_score }}</p>
+    <img src="{% static "soldier3_risk_score.jpg" %}" alt="My image" height="300" width="250">
   </div>
   <div class="column">
-    <h2>CDT Motes</h2>
-    <p>39</p>
-    <div class="gradient"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+    <h2>{{ soldier4_name }}</h2>
+    <p>{{ soldier4_score }}</p>
+    <img src="{% static "soldier4_risk_score.jpg" %}" alt="My image" height="300" width="250">
   </div>
 </div>
 
