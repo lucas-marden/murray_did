@@ -39,24 +39,24 @@
 <a href="http://127.0.0.1:8000/biometrics_did/medic">Click here for Medic View</a>
 <div class="row">
   <div class="column"> 
-    <h2>{{ soldier1_name }}</h2>
-    <p>{{ soldier1_score }}</p>
+    <h2>{{ s1_first_name }} {{ s1_last_name }}</h2>
+    <p>{{ s1_score }}</p>
     {% load static %}
     <img src="{% static "soldier1_risk_score.jpg" %}" alt="My image" height="300" width="250">
   </div>
   <div class="column">
-    <h2>{{ soldier2_name }}</h2>
-    <p>{{ soldier2_score }}</p>
+    <h2>{{ s2_first_name }} {{ s2_last_name }}</h2>
+    <p>{{ s2_score }}</p>
     <img src="{% static "soldier2_risk_score.jpg" %}" alt="My image" height="300" width="250">
   </div>
   <div class="column"> 
-    <h2>{{ soldier3_name }}</h2>
-    <p>{{ soldier3_score }}</p>
+    <h2>{{ s3_first_name }} {{ s3_last_name }}</h2>
+    <p>{{ s3_score }}</p>
     <img src="{% static "soldier3_risk_score.jpg" %}" alt="My image" height="300" width="250">
   </div>
   <div class="column">
-    <h2>{{ soldier4_name }}</h2>
-    <p>{{ soldier4_score }}</p>
+    <h2>{{ s4_first_name }} {{ s4_last_name }}</h2>
+    <p>{{ s4_score }}</p>
     <img src="{% static "soldier4_risk_score.jpg" %}" alt="My image" height="300" width="250">
   </div>
 </div>

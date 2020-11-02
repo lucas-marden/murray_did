@@ -20,8 +20,7 @@ class Soldier:
         elif (self.water > 60):
             self.score = self.score * 1.2
         elif (self.water > 40):
-            self.score = self.score * 1.6
-        
+            self.score = self.score * 1.6        
         #prior heat injury
         if (self.prior):
             self.score = self.score * 1.2
