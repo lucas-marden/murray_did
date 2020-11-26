@@ -1,0 +1,16 @@
+t=2020-11-09T16:55:26-0500 lvl=eror msg="Failed to send usage stats" logger=metrics err="Post \"https://stats.grafana.org/grafana-usage-report\": dial tcp: lookup stats.grafana.org: no such host"
+t=2020-11-09T16:56:09-0500 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2020-11-09T16:56:10-0500 lvl=info msg="Starting Grafana" logger=server version=7.3.0 commit=bf8837f6f8 branch=HEAD compiled=2020-10-28T08:03:43-0400
+t=2020-11-09T16:56:10-0500 lvl=info msg="Config loaded from" logger=settings file=C:\\Users\\liamc\\Downloads\\grafana-7.3.0/conf/defaults.ini
+t=2020-11-09T16:56:10-0500 lvl=info msg="Path Home" logger=settings path=C:\\Users\\liamc\\Downloads\\grafana-7.3.0
+t=2020-11-09T16:56:10-0500 lvl=info msg="Path Data" logger=settings path=C:\\Users\\liamc\\Downloads\\grafana-7.3.0\\data
+t=2020-11-09T16:56:10-0500 lvl=info msg="Path Logs" logger=settings path=C:\\Users\\liamc\\Downloads\\grafana-7.3.0\\data\\log
+t=2020-11-09T16:56:10-0500 lvl=info msg="Path Plugins" logger=settings path=C:\\Users\\liamc\\Downloads\\grafana-7.3.0\\data\\plugins
+t=2020-11-09T16:56:10-0500 lvl=info msg="Path Provisioning" logger=settings path=C:\\Users\\liamc\\Downloads\\grafana-7.3.0\\conf\\provisioning
+t=2020-11-09T16:56:10-0500 lvl=info msg="App mode production" logger=settings
+t=2020-11-09T16:56:10-0500 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2020-11-09T16:56:10-0500 lvl=warn msg="SQLite database file has broader permissions than it should" logger=sqlstore path=C:\\Users\\liamc\\Downloads\\grafana-7.3.0\\data\\grafana.db mode=-rw-rw-rw- expected=-rw-r-----
+t=2020-11-09T16:56:10-0500 lvl=info msg="Starting DB migrations" logger=migrator
+t=2020-11-09T16:56:10-0500 lvl=info msg="Starting plugin search" logger=plugins
+t=2020-11-09T16:56:10-0500 lvl=info msg="Registering plugin" logger=plugins id=input
+t=2020-11-09T16:56:10-0500 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
